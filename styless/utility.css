@@ -18,6 +18,14 @@
   padding-inline: var(--px-lg);
 }
 
+.flex{
+  display: flex;
+}
+
+.gap-1{
+  gap: 1rem;
+}
+
 .desktop-only{
   display: none;
 }
@@ -29,6 +37,9 @@
   margin-inline: auto;
 }
 
+.grid{
+  display: grid;
+}
 
 @media (width >= 80em) {
   .container{
