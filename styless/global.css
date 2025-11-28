@@ -98,6 +98,11 @@ ul[role="list"]{
   gap: 1rem;
 }
 
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
 @media (width >= 80em){
   :root{
   --py-lg: 2rem;
