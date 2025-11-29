@@ -1,6 +1,6 @@
-#dowload{
+#download{
   & .card {
-    padding: 3rem 1.5rem 15rem;
+    padding: 0 1.5rem 15rem;
     position: relative;
 
   & > img {
@@ -32,7 +32,8 @@
 }
 
 @media (width <= 24em) {
-  #dowload {
+  #download {
     margin-top: 5rem;
   }
+
 }
