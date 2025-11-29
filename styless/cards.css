@@ -1,0 +1,16 @@
+.card{
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 1.5rem;
+
+
+  & h3 {
+    margin-top: 1rem;
+  }
+}
+
+@media (width <= 24em){
+  & .cards{
+    margin-top: 3rem;
+  }
+}
